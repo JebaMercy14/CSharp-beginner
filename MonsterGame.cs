@@ -1,4 +1,15 @@
-int hero = 10;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace MonsterGame
+{
+	public class Program
+	{
+		public static void Main(string[] args)
+		{
+			int hero = 10;
 int monster = 10;
 
 Random dice = new Random();
@@ -18,3 +29,6 @@ do
 } while (hero > 0 && monster > 0);
 
 Console.WriteLine(hero > monster ? "Hero wins!" : "Monster wins!");
+		}
+	}
+}
